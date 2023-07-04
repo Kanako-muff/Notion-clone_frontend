@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:6600/api/v1";
+const BASE_URL = "https://test-kanako.onrender.com/api/v1";
 const getToken = () => localStorage.getItem("token");
 
 const axiosClient = axios.create({  //create() ⬅︎function for instantiation
